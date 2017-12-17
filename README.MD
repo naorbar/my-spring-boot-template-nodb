@@ -26,7 +26,7 @@ The project's jar also contains some java console applications (as described abo
 	java -jar <this_jar_file> [--server.port=<port> default port:8080]
 e.g.
 
-	java -jar nnn-0.0.1-SNAPSHOT.jar
+	java -jar my-spring-boot-template-nodb-0.0.1-SNAPSHOT.jar
 
 Browse to: 
 
@@ -38,7 +38,7 @@ to view the main page
 	java -cp <this_jar_file> -Dloader.main=<main_class> org.springframework.boot.loader.PropertiesLauncher
 e.g.
 	
-	java -cp vapp-migration-tools-0.0.1-SNAPSHOT.jar -Dloader.main=com.ca.tools.attributes.mapper.StartConsole org.springframework.boot.loader.PropertiesLauncher
+	java -cp my-spring-boot-template-nodb-0.0.1-SNAPSHOT.jar -Dloader.main=com.ca.tools.tool1.StartConsole org.springframework.boot.loader.PropertiesLauncher
 
 ## Usage (Development Mode)
 ### To build this project: 

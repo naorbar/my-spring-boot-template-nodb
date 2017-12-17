@@ -15,7 +15,7 @@ To run this program as a web application run the following command:
 	java -jar <this_jar_file> [--server.port=<port> default port:8443]
 e.g.
 
-	java -jar nnn-0.0.1-SNAPSHOT.jar
+	java -jar my-spring-boot-template-nodb-0.0.1-SNAPSHOT.jar
 
 and browse to:
 
@@ -28,4 +28,4 @@ To run this program as a console application use (StartConsole class):
 	java -cp <this_jar_file> -Dloader.main=<another_main_class> org.springframework.boot.loader.PropertiesLauncher
 e.g.
 
-	java -cp nnn-0.0.1-SNAPSHOT.jar -Dloader.main=com.ca.tools.tool2.StartConsole org.springframework.boot.loader.PropertiesLauncher
+	java -cp my-spring-boot-template-nodb-0.0.1-SNAPSHOT.jar -Dloader.main=com.ca.tools.tool2.StartConsole org.springframework.boot.loader.PropertiesLauncher
