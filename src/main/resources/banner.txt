@@ -1,1 +1,1 @@
-==== SAMPLE APP BANNER ==== 
+==== MY BANNER TEXT ==== 
